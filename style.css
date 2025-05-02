@@ -95,3 +95,119 @@ button {
     color: white;
     cursor: pointer;
 }
+
+/* Education blokları üçün stil */
+.education-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.education-actions, .block-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 60px;
+}
+
+button.delete-btn {
+    background: #ffebee;
+    color: #d32f2f;
+}
+
+.education-block .delete-btn {
+    display: none;
+}
+
+.education-block:hover .delete-btn {
+    display: inline-block;
+}
+
+
+/* Work Experience blokları üçün stil */
+.work-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.work-actions, .block-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 60px;
+}
+
+button.delete-btn {
+    background: #ffebee;
+    color: #d32f2f;
+}
+
+.work-block .delete-btn {
+    display: none;
+}
+
+.work-block:hover .delete-btn {
+    display: inline-block;
+}
+
+
+/* Profile blokları üçün stil */
+.profile-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.profile-actions, .block-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 60px;
+}
+
+button.delete-btn {
+    background: #ffebee;
+    color: #d32f2f;
+}
+
+.profile-block .delete-btn {
+    display: none;
+}
+
+.profile-block:hover .delete-btn {
+    display: inline-block;
+}

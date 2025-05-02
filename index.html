@@ -25,22 +25,11 @@
         <div class="education">
             <h2>Education</h2>
             <hr/>
-            <h3>
-                2009-2030 <br>
-                Wardiere University
-            </h3>
-            <ul>
-                <li>Master of Business Management</li>
-            </ul>
-            <h3>
-                2025-2029 <br>
-                Wardiere University
-            </h3>
-            <ul>
-                <li>Bachelor of Business</li>
-                <li>GPA: 3.8 / 4.0</li>
-            </ul>
-        </div>
+            <!-- Dinamik bloklar üçün container -->
+            <div id="educationList"></div>
+            <!-- Yeni blok əlavə etmək üçün düymə -->
+            <button id="addEducationBtn" class="hidden">+ Add Education</button>
+        </div>        
         <!--Skills section-->
         <div id="skill" class="section">
             <h2>Skills</h2>
@@ -64,73 +53,25 @@
             <hr/>
         </div>
         <!--Profile section-->
-        <div>
+        <div class="profile">
             <h2>Profile</h2>
             <hr/>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam quis nostrud exercitation.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam quis nostrud exercitation.
-                Ut enim ad minim veniam quis nostrud exercitation.
-            </p>
-        </div>
+            <!-- Dinamik bloklar üçün container -->
+            <div id="profileList"></div>
+            <!-- Yeni blok əlavə etmək üçün düymə -->
+            <button id="profileBtn" class="hidden">+ Add Profile Information</button>
+        </div>  
+
         <!--Experience section-->
-        <div>
+        <div class="work">
             <h2>Work Experience</h2>
             <hr/>
-            <div>
-                <h3>Borchello Studio</h3>
-                <p>Marketing manager & Specialist</p>
-                <ul>
-                    <li>
-                        Develop and execute comprehensive marketing strategies and campaigns that align with the
-                        company's goals and objectives.
-                    </li>
-                    <li>
-                        Develop and execute comprehensive marketing strategies and campaigns that align with the
-                        company's goals and objectives.
-                    </li>
-                    <li>
-                        Develop and execute comprehensive marketing strategies and campaigns that align with the
-                        company's goals and objectives.
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Fauget Studio</h3>
-                <p>Marketing manager & Specialist</p>
-                <ul>
-                    <li>
-                        Create and manage the marketing budget, ensuring efficient allocation of resources and
-                        optimizing ROI.
-                    </li>
-                    <li>
-                        Oversee market research to identify emerging trends, customer needs, and competitor strategies.
-                    </li>
-                    <li>
-                        Monitor brand consistency across marketing channels and materials.
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Studio Shodwe</h3>
-                <p>Marketing manager & Specialist</p>
-                <ul>
-                    <li>
-                        Develop and execute comprehensive marketing strategies and campaigns that align with the
-                        company's goals and objectives.
-                    </li>
-                    <li>
-                        Develop and execute comprehensive marketing strategies and campaigns that align with the
-                        company's goals and objectives.
-                    </li>
-                </ul>
-            </div>
+            <!-- Dinamik bloklar üçün container -->
+            <div id="workList"></div>
+            <!-- Yeni blok əlavə etmək üçün düymə -->
+            <button id="addWorkBtn" class="hidden">+ Add Work Experience</button>
+        </div>  
 
-        </div>
         <!--Reference section-->
         <div> 
             <h2>Reference</h2>
@@ -156,7 +97,7 @@
         </div>
     </div>
 </div>
-<script src="mainFunction.js" defer></script>
-<script src="sections-name.js" defer></script>
+<script src="left-side.js" defer></script>
+<script src="right-side.js" defer></script>
 </body>
 </html>
